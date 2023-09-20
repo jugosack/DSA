@@ -8,4 +8,5 @@
 // Test cases
 console.log(romanToInt("III"));        // Output: 3
 console.log(romanToInt("V"));        // Output: 5
-console.log(romanToInt("x"));        // Output: 10
+console.log(romanToInt("X"));        // Output: 10
+console.log(romanToInt("L"));        // Output: 50
