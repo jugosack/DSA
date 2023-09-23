@@ -4,7 +4,13 @@
  * @return {number}
  */
  var removeElement = function(nums, val) {
-    
+z=[]
+    for  (let i=0; i<nums.length; i++){
+        if(num[i]!==val){
+        num[i].push(z)  
+        }
+    }
+    return z
 };
 
 // Test cases
