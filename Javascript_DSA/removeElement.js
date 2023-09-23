@@ -4,17 +4,20 @@
  * @return {number}
  */
  var removeElement = function(nums, val) {
-z=[]
-    for  (let i=0; i<nums.length; i++){
-        if(num[i]!==val){
-        num[i].push(z)  
+    let k = 0; // Initialize a variable to count elements not equal to val
+    
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] !== val) {
+            nums[k] = nums[i]; // Replace nums[k] with nums[i] if they are not equal
+            k++; // Increment the count
         }
     }
-    return z
+    
+    return k; // Return the count of elements not equal to val
 };
 
 // Test cases
-console.log(removeElement([2, 7, 11, 15], 7)); // Expected output: [2,11,15] = nums, k=3
-console.log(removeElement([3, 2, 4, 6],6));      
-console.log(removeElement([3, 3, 4], 4));          
+console.log(removeElement([3, 2, 2, 3], 3));       // Expected output: 2
+console.log(removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2)); // Expected output: 5
+       
 
