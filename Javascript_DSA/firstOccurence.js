@@ -4,7 +4,7 @@
  * @return {number}
  */
  var strStr = function(haystack, needle) {
-    
+    let index = haystack.indexOf(needle);
 };
 
 //Test cases
