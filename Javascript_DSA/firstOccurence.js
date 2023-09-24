@@ -4,11 +4,12 @@
  * @return {number}
  */
  var strStr = function(haystack, needle) {
-    
+    let index =0
     while (index !== -1) {
-        let index = haystack.indexOf(needle);
+        index = haystack.indexOf(needle);
+        return index
     }
-return index
+
 };
 
 //Test cases
