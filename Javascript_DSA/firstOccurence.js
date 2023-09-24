@@ -5,6 +5,11 @@
  */
  var strStr = function(haystack, needle) {
     let index = haystack.indexOf(needle);
+    while (index !== -1) {
+        console.log("Substring found at index:", index);
+        index = haystack.indexOf(needle, index + 1);
+    }
+    
 };
 
 //Test cases
