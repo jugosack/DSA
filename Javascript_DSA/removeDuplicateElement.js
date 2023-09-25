@@ -7,7 +7,10 @@
         return 0; // If the array is empty, there are no duplicates.
     }
 
-   
+    if (nums.length === 0) {
+        return 0; // If the array is empty, there are no duplicates.
+    }
+
 };
 //Test cases
 // Test case 1: Basic test case with duplicates
