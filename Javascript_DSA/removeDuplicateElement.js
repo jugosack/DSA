@@ -3,6 +3,10 @@
  * @return {number}
  */
  var removeDuplicates = function(nums) {
+    if (nums.length === 0) {
+        return 0; // If the array is empty, there are no duplicates.
+    }
+
    
 };
 //Test cases
