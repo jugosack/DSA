@@ -5,3 +5,5 @@
  var lengthOfLastWord = function(s) {
     
 };
+
+//Test cases
