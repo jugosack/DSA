@@ -7,3 +7,4 @@
 };
 
 //Test cases
+console.log(lengthOfLastWord("Hello World")); // Expected output: 5
