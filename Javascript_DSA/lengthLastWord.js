@@ -4,11 +4,15 @@
  */
  var lengthOfLastWord = function(s) {
     s=s.trim()
-    for (let i=0; i<s.length; i++){
-        if (s[i] !==' '){
-
+    let z=0
+    for (let i=s.length-1;i>=0; i--){ 
+        if (s[i] ==' '){
+            break
         }
+        z++
     }
+
+    return z
 };
 
 //Test cases
