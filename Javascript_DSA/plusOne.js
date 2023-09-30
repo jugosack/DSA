@@ -19,3 +19,17 @@
     
 };
 // Test cases
+// Test Case 1: Regular increment, no carryover
+console.log(plusOne([1, 2, 3])); // Output: [1, 2, 4]
+
+// Test Case 2: Increment with carryover
+console.log(plusOne([1, 2, 9])); // Output: [1, 3, 0]
+
+// Test Case 3: All 9s with carryover
+console.log(plusOne([9, 9, 9])); // Output: [1, 0, 0, 0]
+
+// Test Case 4: Single-digit number
+console.log(plusOne([9])); // Output: [1, 0]
+
+// Test Case 5: Large number with no carryover
+console.log(plusOne([1, 0, 0, 0, 0])); // Output: [1, 0, 0, 0, 1]
