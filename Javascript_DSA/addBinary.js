@@ -6,3 +6,4 @@
  var addBinary = function(a, b) {
     
 };
+//Test cases
