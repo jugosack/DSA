@@ -7,3 +7,4 @@
     
 };
 //Test cases
+console.log(addBinary("11", "1")); // Expected output: 100
