@@ -5,3 +5,5 @@
  var singleNumber = function(nums) {
    
 };
+
+//Test cases
