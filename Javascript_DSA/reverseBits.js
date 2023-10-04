@@ -6,3 +6,6 @@
     
 };
 //Test case
+var n = 43261596; // Example input
+var reversed = reverseBits(n);
+console.log(reversed); // Output should be the integer with reversed bits
