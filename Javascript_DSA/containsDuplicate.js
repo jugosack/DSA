@@ -3,6 +3,16 @@
  * @return {boolean}
  */
  var containsDuplicate = function(nums) {
+    const duplicateSet = new Set();
+
+    for (const num of nums) {
+        if (duplicateSet.has(num)) {
+            return true; // Found a duplicate
+        }
+        duplicateSet.add(num);
+    }
+
+    return false; // No duplicates found
    
 };
 // Test cases
