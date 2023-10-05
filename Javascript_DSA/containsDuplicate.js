@@ -5,3 +5,5 @@
  var containsDuplicate = function(nums) {
    
 };
+//Test cases
+
