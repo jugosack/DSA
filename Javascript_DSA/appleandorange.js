@@ -24,3 +24,5 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
 
     return [appleCount, orangeCount];
 }
+
+// Test cases
