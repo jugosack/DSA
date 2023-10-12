@@ -19,3 +19,5 @@ function pickingNumbers(a) {
 }
 
 //Test cases
+console.log(a)
+console.log(a("1,2,2,3"));        // Output: true
