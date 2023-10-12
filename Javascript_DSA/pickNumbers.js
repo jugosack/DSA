@@ -19,5 +19,7 @@ function pickingNumbers(a) {
 }
 
 //Test cases
-console.log(a)
-console.log(a("1,2,2,3"));        // Output: true
+const a=[1,2,2,3,1,2]
+console.log(pickingNumbers(a));        // Output: 5
+const a1=[ 1, 2, 3, 3, 3 ]
+console.log(pickingNumbers(a1));        // Output: 3
