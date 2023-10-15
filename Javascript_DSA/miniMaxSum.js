@@ -9,7 +9,7 @@ for(let i=0; i<arr.length-1; i++ ){
     for(let z=arr.length-1; z>01; z--){
         sum2+=arr[z]
         }
-     
+        console.log(sum1,sum2)
 }
 
 //Test cases
