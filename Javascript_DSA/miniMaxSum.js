@@ -6,7 +6,10 @@ for(let i=0; i<arr.length-1; i++ ){
     sum1+=arr[i]
     }
  
-
+    for(let z=arr.length-1; z>01; z--){
+        sum2+=arr[z]
+        }
+     
 }
 
 //Test cases
