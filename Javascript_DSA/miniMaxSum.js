@@ -2,6 +2,10 @@ function miniMaxSum(arr) {
    
 var sum1=0
 var sum2=0
+for(let i=0; i<arr.length-1; i++ ){
+    sum1+=arr[i]
+    }
+ 
 
 }
 
