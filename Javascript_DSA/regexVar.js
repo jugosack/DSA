@@ -10,3 +10,4 @@ function regexVar() {
      */
     return re;
 }
+//Test cases
