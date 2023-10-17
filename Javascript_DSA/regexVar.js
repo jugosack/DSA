@@ -14,3 +14,4 @@ function regexVar() {
 console.log(regexVar().test('apple'));
 console.log(regexVar().test('banana'));
 console.log(regexVar().test('123abc123'));
+console.log(regexVar().test('abcda'));
