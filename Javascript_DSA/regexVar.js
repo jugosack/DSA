@@ -11,3 +11,4 @@ function regexVar() {
     return re;
 }
 //Test cases
+console.log(regexVar().test('apple'));
