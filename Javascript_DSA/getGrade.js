@@ -5,3 +5,4 @@ function getGrade(score) {
 
     return grade;
 }
+//Test cases
