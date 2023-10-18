@@ -16,7 +16,6 @@ function getGrade(score) {
     } else {
         grade = 'Invalid score';
     }
-
     return grade;
 }
 //Test cases
