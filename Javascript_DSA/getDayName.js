@@ -3,3 +3,4 @@ function getDayName(dateString) {
     
     return dayName;
 }
+//Test cases
