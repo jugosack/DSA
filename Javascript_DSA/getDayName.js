@@ -12,4 +12,5 @@ function getDayName(dateString) {
 //Test cases
 console.log(getDayName(10/11/2009)); 
 console.log(getDayName(10/11/2008)); 
+console.log(getDayName(10/11/2007)); 
 console.log(getDayName(10/11/2000)); 
