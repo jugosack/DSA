@@ -10,4 +10,5 @@ function getDayName(dateString) {
     return dayName;
 }
 //Test cases
-console.log(getDayName(10/11/2009)); // Expected output: 'C'
+console.log(getDayName(10/11/2009)); 
+console.log(getDayName(10/11/2000)); 
