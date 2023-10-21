@@ -9,4 +9,4 @@ function getMaxLessThanK(n, k) {
         return max;
 }
 //Test case
-console.log(getMaxLessThnanK(5,2));
+console.log(getMaxLessThanK(5,2));
