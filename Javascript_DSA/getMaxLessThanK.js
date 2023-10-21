@@ -4,3 +4,4 @@ function getMaxLessThanK(n, k) {
         return max;
 }
 //Test case
+console.log(getMaxLessThnanK(5,2));
