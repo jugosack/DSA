@@ -3,3 +3,4 @@ function getMaxLessThanK(n, k) {
     
         return max;
 }
+//Test case
