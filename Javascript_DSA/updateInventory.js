@@ -18,3 +18,5 @@ var newInv = [
 ];
 
 updateInventory(curInv, newInv);
+
+// EXPLANATION
