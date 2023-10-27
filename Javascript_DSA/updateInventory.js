@@ -37,7 +37,7 @@ function updateInventory(arr1, arr2) {
   ];
   
   updateInventory(curInv, newInv);
-
+  console.log(updateInventory);
 
 // EXPLANATION
 //Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in arr1). 
