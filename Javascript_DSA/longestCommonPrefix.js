@@ -27,4 +27,6 @@ var longestCommonPrefix = function(strs) {
 
 //Test cases
 const test1 = ["flower", "flour", "flourish"];
+const test2 = ["dog", "car", "race"];
+console.log(longestCommonPrefix(test2)); // Output: ""
 console.log(longestCommonPrefix(test1)); // Output: "flo"
