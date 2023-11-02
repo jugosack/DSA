@@ -7,6 +7,7 @@ var strStr = function(haystack, needle) {
             return i;
         }
     }
+    return -1;
 };
 
 //Test case
