@@ -4,7 +4,9 @@ var removeDuplicates = function(nums) {
     }
     uniqueIndex=0;
     for(let i=1; i<nums.length; i++){
-        i
+        if(nums[i] != nums[uniqueIndex]){
+
+        }
     }
 };
 //Test cases
