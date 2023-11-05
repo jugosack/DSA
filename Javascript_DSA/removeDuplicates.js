@@ -13,7 +13,8 @@ var removeDuplicates = function(nums) {
     return uniqueIndex +1;
 };
 //Test cases
-console.log(removeDuplicates([0,0,1,1,1,2,2,3,3,4])); // Expected output: 1
+console.log(removeDuplicates([0,0,1,1,1,2,2,3,3,4])); // Expected output: 5
+console.log(removeDuplicates([1,1,2])); // Expected output: 2
 
 
 //link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
