@@ -5,3 +5,4 @@
  var isHappy = function(n) {
     
 };
+//Test cases
