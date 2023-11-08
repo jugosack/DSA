@@ -6,3 +6,4 @@
     
 };
 //Test cases
+console.log(isHappy(2));
