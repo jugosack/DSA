@@ -8,7 +8,10 @@
         seen.add(n);
         n = sumOfSquares(n);
     }
+    return n === 1;
 };
+
+
 //Test cases
 console.log(isHappy(2));
 console.log(isHappy(19));
