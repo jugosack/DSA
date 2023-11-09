@@ -3,7 +3,7 @@
  * @return {boolean}
  */
  var isHappy = function(n) {
-    
+    const seen = new Set();
 };
 //Test cases
 console.log(isHappy(2));
