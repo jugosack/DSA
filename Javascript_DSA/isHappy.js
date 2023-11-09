@@ -12,7 +12,8 @@
 };
 
 function sumOfSquares(num) {
-    
+    let sum = 0;
+  
 }
 //Test cases
 console.log(isHappy(2));
