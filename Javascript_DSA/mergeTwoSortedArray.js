@@ -24,4 +24,10 @@ n = 0;
 merge(nums1, m, nums2, n);
 console.log(nums1); // Output: [1]
 
-
+// Example 3
+nums1 = [0];
+m = 0;
+nums2 = [1];
+n = 1;
+merge(nums1, m, nums2, n);
+console.log(nums1); // Output: [1]
