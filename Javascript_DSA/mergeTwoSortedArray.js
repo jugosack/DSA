@@ -31,3 +31,5 @@ nums2 = [1];
 n = 1;
 merge(nums1, m, nums2, n);
 console.log(nums1); // Output: [1]
+
+//link: https://leetcode.com/problems/merge-sorted-array/
