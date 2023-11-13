@@ -21,6 +21,12 @@
         }
         currentIndex--;
     }
+     // If there are remaining elements in nums2, copy them to nums1
+     while (index2 >= 0) {
+        nums1[currentIndex] = nums2[index2];
+        index2--;
+       
+    }
   
  };
  //test cases
