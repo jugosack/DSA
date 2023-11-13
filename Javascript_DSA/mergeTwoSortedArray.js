@@ -8,6 +8,7 @@
  var merge = function(nums1, m, nums2, n) {
     let index1 = m - 1; // Index for the last element in nums1
     let index2 = n - 1; // Index for the last element in nums2
+    let currentIndex = m + n - 1; // Index for the last position in nums1
   
  };
  //test cases
