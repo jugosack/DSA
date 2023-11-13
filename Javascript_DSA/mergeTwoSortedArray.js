@@ -19,7 +19,7 @@
             nums1[currentIndex] = nums2[index2];
             index2--;
         }
-        
+        currentIndex--;
     }
   
  };
