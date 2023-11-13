@@ -9,6 +9,18 @@
     let index1 = m - 1; // Index for the last element in nums1
     let index2 = n - 1; // Index for the last element in nums2
     let currentIndex = m + n - 1; // Index for the last position in nums1
+    
+     // Merge the arrays in descending order
+     while (index1 >= 0 && index2 >= 0) {
+        if (nums1[index1] > nums2[index2]) {
+            nums1[currentIndex] = nums1[index1];
+            index1--;
+        } else {
+            nums1[currentIndex] = nums2[index2];
+            index2--;
+        }
+        
+    }
   
  };
  //test cases
