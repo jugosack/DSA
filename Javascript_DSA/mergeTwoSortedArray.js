@@ -6,6 +6,9 @@
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
  var merge = function(nums1, m, nums2, n) {
+    let index1 = m - 1; // Index for the last element in nums1
+    let index2 = n - 1; // Index for the last element in nums2
+  
  };
  //test cases
  // Example 1
