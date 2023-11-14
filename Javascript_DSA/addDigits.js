@@ -5,3 +5,4 @@
  var addDigits = function(num) {
     
 };
+//Test cases
