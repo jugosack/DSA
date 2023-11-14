@@ -6,3 +6,4 @@
     
 };
 //Test cases
+console.log(addDigits(38)); // Output: 2
