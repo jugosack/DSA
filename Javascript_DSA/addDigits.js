@@ -3,7 +3,8 @@
  * @return {number}
  */
  var addDigits = function(num) {
-    
+    while (num >= 10) {
+    }
 };
 //Test cases
 console.log(addDigits(38)); // Output: 2
