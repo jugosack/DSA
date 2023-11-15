@@ -6,6 +6,7 @@
     while (num >= 10) {
         num = String(num).split('').reduce((acc, digit) => acc + parseInt(digit), 0);
     }
+    return num;
 };
 //Test cases
 console.log(addDigits(38)); // Output: 2
