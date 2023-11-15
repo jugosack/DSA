@@ -4,6 +4,7 @@
  */
  var addDigits = function(num) {
     while (num >= 10) {
+        num = String(num).split('').reduce((acc, digit) => acc + parseInt(digit), 0);
     }
 };
 //Test cases
