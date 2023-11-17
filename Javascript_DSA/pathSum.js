@@ -4,5 +4,6 @@
  * @return {boolean}
  */
  var hasPathSum = function(root, targetSum) {
-    
+
  };
+ 
