@@ -26,3 +26,5 @@ console.log(hasPathSum(root4, 6));   // Output: true
 // Test Case 5: Valid path with sum 1 (single-node tree)
 var root5 = new TreeNode(1);
 console.log(hasPathSum(root5, 1));   // Output: true
+
+//link: https://leetcode.com/problems/path-sum/
