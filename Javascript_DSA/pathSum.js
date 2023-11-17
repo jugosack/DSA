@@ -6,4 +6,4 @@
  var hasPathSum = function(root, targetSum) {
 
  };
- 
+ //Test cases
