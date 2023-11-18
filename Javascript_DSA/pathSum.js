@@ -8,6 +8,10 @@
     if (!root) {
         return false;
     }
+ // Check if the current node is a leaf
+ if (!root.left && !root.right) {
+    return root.val === targetSum;
+}
 
  };
  //Test cases
