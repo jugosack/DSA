@@ -14,6 +14,7 @@
 }
  // Recursively check the left and right subtrees
  const leftPath = hasPathSum(root.left, targetSum - root.val);
+ const rightPath = hasPathSum(root.right, targetSum - root.val);
  };
  //Test cases
  // Test Case 1: Valid path with sum 22
