@@ -4,6 +4,10 @@
  * @return {boolean}
  */
  var hasPathSum = function(root, targetSum) {
+    // Base case: if the root is null, return false
+    if (!root) {
+        return false;
+    }
 
  };
  //Test cases
