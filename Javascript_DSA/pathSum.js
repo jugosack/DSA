@@ -1,3 +1,12 @@
+
+class TreeNode {
+    constructor(val = 0, left = null, right = null) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
+
 /**
  * @param {TreeNode} root
  * @param {number} targetSum
@@ -19,15 +28,17 @@
  // Return true if there is a path in either the left or right subtree
  return leftPath || rightPath;
  };
- //Test cases
- // Test Case 1: Valid path with sum 0 (single-node tree)
+// Test cases
+// Test Case 1: Valid path with sum 22
+var root1 = new TreeNode(5, new TreeNode(4, new TreeNode(11, new TreeNode(7), new TreeNode(2))), new TreeNode(8, new TreeNode(13), new TreeNode(4, null, new TreeNode(1))));
+console.log(hasPathSum(root1, 22));  // Output: true
 
-console.log(hasPathSum([5,4,8,11,null,13,4,7,2,null,null,null,1], 22));  // Output: false
+// Test Case 2: No path with sum 5
+var root2 = new TreeNode(1, new TreeNode(2), new TreeNode(3));
+console.log(hasPathSum(root2, 5));   // Output: false
 
-// Test Case 2: No path with sum 1 (single-node tree)
-console.log(hasPathSum([1,2,3], 3));  // Output: false
-
-// Test Case 3: Valid path with sum -5 (single-node tree)
-console.log(hasPathSum([], 0));  // Output: true
+// Test Case 3: Empty tree
+var root3 = null;
+console.log(hasPathSum(root3, 0));  // Output: false
 
 //link: https://leetcode.com/problems/path-sum/
