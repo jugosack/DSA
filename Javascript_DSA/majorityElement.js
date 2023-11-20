@@ -5,3 +5,5 @@
  var majorityElement = function(nums) {
     
 };
+
+//test cases
