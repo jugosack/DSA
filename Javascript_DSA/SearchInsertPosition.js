@@ -6,3 +6,5 @@
  var searchInsert = function(nums, target) {
     
 };
+
+//Test cases
