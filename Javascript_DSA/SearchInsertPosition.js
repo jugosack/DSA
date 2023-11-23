@@ -8,7 +8,9 @@
         if (nums[i] === target) {
             return i;
         }
-
+        if (target <= nums[i]) {
+            return i;
+        }
       
     }
 
