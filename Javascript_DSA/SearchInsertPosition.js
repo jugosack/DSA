@@ -4,8 +4,13 @@
  * @return {number}
  */
  var searchInsert = function(nums, target) {
-    
+    for (let i = 0; i < nums.length; i++) {
+       
+    }
+
+    return nums.length;
 };
+
 
 //Test cases
 console.log(searchInsert([1,3,5],2));
